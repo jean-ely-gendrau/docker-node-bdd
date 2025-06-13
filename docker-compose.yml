@@ -1,5 +1,7 @@
 services:
   node:
+    restart: always
+    container_name: node-js
     build:
       dockerfile: Dockerfile
     volumes:
@@ -8,3 +10,23 @@ services:
       - "3000:3000"
     environment:
       - PORT=3000
+
+  bd:
+    image: mariadb:latest
+    restart: always
+    ports:
+      - "3315:3306"
+    container_name: mariadb-node
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_USER: admin-user
+      MARIADB_PASSWORD: admin-user
+      MARIADB_DATABASE: node_product
+    volumes:
+      - ./data-docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

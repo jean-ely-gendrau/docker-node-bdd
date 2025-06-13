@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 apiRest.get("/", (req, res) => {
   const product = [
     {
-      name: "café1", price: 5
+      name: "café1", price: 35
     },
     {
       name: "café2", price: 6
