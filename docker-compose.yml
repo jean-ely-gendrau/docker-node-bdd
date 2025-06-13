@@ -3,9 +3,9 @@ services:
     restart: always # Redémarre automatiquement si le conteneur plante
     container_name: node-js # Nom personnalisé du conteneur
     build:
-      dockerfile: Dockerfile # Utilise le Dockerfile local pour builder l'image
+      dockerfile: ./backend/Dockerfile # Utilise le Dockerfile local pour builder l'image
     volumes:
-      - ./:/app # Monte le dossier local dans /app (pratique pour le dev)
+      - ./backend:/app # Monte le dossier local dans /app (pratique pour le dev)
     ports:
       - "3000:3000" # Port local:port conteneur (ici 3000)
     environment:
@@ -14,8 +14,8 @@ services:
   bd:
     image: mariadb:latest # Utilise la dernière version officielle de MariaDB
     restart: always
-    ports:
-      - "3315:3306" # Le port 3315 sur ta machine pointe vers 3306 du conteneur
+    # ports:
+    #   - "3315:3306" # Le port 3315 sur ta machine pointe vers 3306 du conteneur
     container_name: mariadb-node
     environment:
       MARIADB_ROOT_PASSWORD: root # Mot de passe pour l'utilisateur root
@@ -23,6 +23,7 @@ services:
       MARIADB_PASSWORD: admin-user # Mot de passe associé à l'utilisateur
       MARIADB_DATABASE: node_product # Base de données créée au démarrage
     volumes:
+      - data_bdd:/var/lib/mysql # persistence de donnée
       - ./data-docker/init.sql:/docker-entrypoint-initdb.d/init.sql
         # Script SQL exécuté automatiquement à l'initialisation
 
@@ -31,3 +32,6 @@ services:
     restart: always
     ports:
       - 8080:8080 # Accessible via http://localhost:8080
+
+volumes:
+  data_bdd:
