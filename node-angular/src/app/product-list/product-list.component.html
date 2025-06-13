@@ -1,9 +1,12 @@
+<!-- Message de confirmation statique -->
 <p>product-list works!</p>
 
+<!-- Liste non ordonnée générée dynamiquement -->
 <ul>
+  <!-- Boucle sur le tableau 'products', avec suivi d'index pour optimiser le rendu -->
   @for (item of products; track $index) {
   <li>
-    {{item.name}}
+    {{item.name}} <!-- Affiche la propriété 'name' de chaque produit -->
   </li>
   }
 </ul>
