@@ -1,0 +1,10 @@
+services:
+  node:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
