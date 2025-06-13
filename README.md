@@ -128,7 +128,7 @@ Et comme toujours : testez, cassez, reconstruisez 💥💡
 ### 🟨 TypeScript
 
 - [Documentation TypeScript (officiel)](https://www.typescriptlang.org/docs/)
-- [TypeScript pour les débutants](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [TypeScript en 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
 ### 🧩 Express.js (backend Node.js)
 
