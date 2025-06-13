@@ -1,7 +1,9 @@
 import express from "express"
+import cors from "cors"
 import mysql from 'mysql2/promise';
 
 const apiRest = express();
+apiRest.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
