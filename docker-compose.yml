@@ -14,8 +14,8 @@ services:
   bd:
     image: mariadb:latest # Utilise la dernière version officielle de MariaDB
     restart: always
-    # ports:
-    #   - "3315:3306" # Le port 3315 sur ta machine pointe vers 3306 du conteneur
+    ports:
+      - "3315:3306" # Le port 3315 sur ta machine pointe vers 3306 du conteneur
     container_name: mariadb-node
     environment:
       MARIADB_ROOT_PASSWORD: root # Mot de passe pour l'utilisateur root
