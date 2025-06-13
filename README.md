@@ -1,6 +1,5 @@
 # 🐳 Cheat-Tips Docker Compose – L'essentiel cool 😎
 
-Hey la team 👋
 Ce matin on a posé les bases de **Docker Compose**, alors voici un petit récap vite fait bien fait 💡
 
 ---
@@ -103,8 +102,38 @@ docker-compose -f mon-autre-fichier.yml up
 
 Voilà, garde ça sous le coude 🔖
 Et comme toujours : testez, cassez, reconstruisez 💥💡
-Vous devenez des vrais devs dockerisés 😄
 
 ---
 
-✌️ À plus dans l’bus
+## 📚 Ressources utiles
+
+### 🔧 Docker & Docker Compose
+
+- [Documentation Docker](https://docs.docker.com/)
+- [Référence Docker Compose](https://docs.docker.com/compose/)
+- [Commandes Docker Compose – Cheat Sheet](https://devhints.io/docker-compose)
+- [Play with Docker (sandbox en ligne)](https://labs.play-with-docker.com/)
+
+### 🟩 Node.js
+
+- [Site officiel Node.js](https://nodejs.org/)
+- [npm – gestionnaire de paquets](https://www.npmjs.com/)
+- [Guide Node.js sur MDN](https://developer.mozilla.org/fr/docs/Learn/Server-side/Express_Nodejs)
+
+### 🐬 MariaDB
+
+- [Documentation MariaDB](https://mariadb.com/kb/en/documentation/)
+- [Variables d'environnement MariaDB Docker](https://hub.docker.com/_/mariadb)
+
+### 🧰 Adminer
+
+- [Adminer – outil de gestion de base de données](https://www.adminer.org/)
+- [Adminer sur Docker Hub](https://hub.docker.com/_/adminer)
+
+### 🛠️ Outils pratiques
+
+- [Dockerfile Best Practices (officiel)](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+- [Docker Compose examples (GitHub)](https://github.com/docker/awesome-compose)
+- [Cheat sheet Docker CLI](https://dockerlabs.collabnix.com/docker/cheatsheet/)
+
+---
