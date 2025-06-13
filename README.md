@@ -107,33 +107,52 @@ Et comme toujours : testez, cassez, reconstruisez 💥💡
 
 ## 📚 Ressources utiles
 
-### 🔧 Docker & Docker Compose
+### 🐳 Docker & Docker Compose
 
-- [Documentation Docker](https://docs.docker.com/)
+- [Documentation Docker (officiel)](https://docs.docker.com/)
 - [Référence Docker Compose](https://docs.docker.com/compose/)
-- [Commandes Docker Compose – Cheat Sheet](https://devhints.io/docker-compose)
-- [Play with Docker (sandbox en ligne)](https://labs.play-with-docker.com/)
-
-### 🟩 Node.js
-
-- [Site officiel Node.js](https://nodejs.org/)
-- [npm – gestionnaire de paquets](https://www.npmjs.com/)
-- [Guide Node.js sur MDN](https://developer.mozilla.org/fr/docs/Learn/Server-side/Express_Nodejs)
-
-### 🐬 MariaDB
-
-- [Documentation MariaDB](https://mariadb.com/kb/en/documentation/)
-- [Variables d'environnement MariaDB Docker](https://hub.docker.com/_/mariadb)
-
-### 🧰 Adminer
-
-- [Adminer – outil de gestion de base de données](https://www.adminer.org/)
-- [Adminer sur Docker Hub](https://hub.docker.com/_/adminer)
-
-### 🛠️ Outils pratiques
-
-- [Dockerfile Best Practices (officiel)](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-- [Docker Compose examples (GitHub)](https://github.com/docker/awesome-compose)
 - [Cheat sheet Docker CLI](https://dockerlabs.collabnix.com/docker/cheatsheet/)
+- [Cheat sheet Docker Compose](https://devhints.io/docker-compose)
+- [Play with Docker (sandbox en ligne)](https://labs.play-with-docker.com/)
+- [Best Practices Dockerfile](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+
+### 🟩 Angular (frontend)
+
+- [Documentation Angular (officiel)](https://angular.io/docs)
+- [Angular CLI](https://angular.io/cli)
+- [Angular Routing](https://angular.io/guide/router)
+- [Standalone Components](https://angular.io/guide/standalone-components)
+- [Control Flow syntax (Angular v17+)](https://angular.io/guide/template-control-flow)
+- [RxJS (programmation réactive)](https://rxjs.dev/)
+
+### 🟨 TypeScript
+
+- [Documentation TypeScript (officiel)](https://www.typescriptlang.org/docs/)
+- [TypeScript pour les débutants](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+
+### 🧩 Express.js (backend Node.js)
+
+- [Documentation Express](https://expressjs.com/)
+- [Middleware CORS dans Express](https://expressjs.com/en/resources/middleware/cors.html)
+- [MySQL2 pour Node.js (promesse)](https://www.npmjs.com/package/mysql2)
+
+### 🐬 MariaDB & Adminer (base de données)
+
+- [MariaDB Docker (variables env)](https://hub.docker.com/_/mariadb)
+- [Documentation MariaDB](https://mariadb.com/kb/en/documentation/)
+- [Adminer (interface de gestion)](https://www.adminer.org/)
+- [Adminer Docker](https://hub.docker.com/_/adminer)
+
+### 🧪 API REST & Bonnes pratiques
+
+- [RESTful API Design](https://restfulapi.net/)
+- [Postman pour tester vos routes](https://www.postman.com/)
+- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+### 💡 Bonus : Dev utils
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [ESLint (JS/TS linting)](https://eslint.org/)
+- [Prettier (formatter)](https://prettier.io/)
 
 ---
