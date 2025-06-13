@@ -1,6 +1,5 @@
 # 🐳 Cheat-Tips Docker Compose – L'essentiel cool 😎
 
-Hey la team 👋
 Ce matin on a posé les bases de **Docker Compose**, alors voici un petit récap vite fait bien fait 💡
 
 ---
@@ -106,5 +105,3 @@ Et comme toujours : testez, cassez, reconstruisez 💥💡
 Vous devenez des vrais devs dockerisés 😄
 
 ---
-
-✌️ À plus dans l’bus
